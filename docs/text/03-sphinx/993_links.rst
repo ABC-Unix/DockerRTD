@@ -2,8 +2,10 @@
 Полезные ссылки
 ==============================================
 
-Ссылка 1
+#. Официальный сайт Sphinx
 
-Ссылка 2
+    http://www.sphinx-doc.org
 
-Ссылка 3
+#. Руководство по процессу генерации документации с помощью связки reStructuredText, Python Sphinx, GitHub и сервиса Read the Docs.
+
+    http://sphinx-ru.readthedocs.io/
