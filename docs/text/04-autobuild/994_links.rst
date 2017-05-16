@@ -2,8 +2,12 @@
 Полезные ссылки
 ==============================================
 
-Ссылка 1
+#. Размещение образов на Docker Hub 
 
-Ссылка 2
+    http://docker.cool/docs/docker-engine/learn-by-example/store-images-on-docker-hub/
 
-Ссылка 3
+#. Официальная документация Docker Hub
+
+    http://hub.docker.com/
+
+
