@@ -203,6 +203,6 @@ Sphinx доступен для всех основных операционны�
 
 .. |Установка2| image:: ../../images/py-install-002.png
 
-.. |Утановка3| image:: ../../images/py-install-003.png
+.. |Установка3| image:: ../../images/py-install-003.png
 
 .. |Сфинкс| image:: ../../images/pip-sphinx.png
