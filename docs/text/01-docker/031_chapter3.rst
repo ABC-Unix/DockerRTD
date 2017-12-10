@@ -29,16 +29,16 @@ Ubuntu
 
 .. code-block:: text  
 
-    sudo apt-key adv --keyserver hkp://p80.pool.sks-keyservers.net:80 \
-    --recv-keys 58118E89F3A912897C070ADBF76221572C52609D
+    curl -fsSL https://download.docker.com/linux/ubuntu/gpg | sudo apt-key add -
     
 Добавьте этот репозиторий в APT: 
 
 .. code-block:: text  
 
-    echo "deb https://apt.dockerproject.org/repo ubuntu-xenial main"  
-    
-    sudo tee /etc/apt/sources.list.d/docker.list
+    sudo add-apt-repository \
+   "deb [arch=amd64] https://download.docker.com/linux/ubuntu \
+   $(lsb_release -cs) \
+   stable"
 
 Обновите индекс пакетов:
  
@@ -50,7 +50,7 @@ Ubuntu
 
 .. code-block:: text  
 
-    apt-cache policy docker-engine
+    sudo apt-get install docker-ce
     
 Обратите внимание: пакет docker-engine пока не установлен. Версия пакета может отличаться.    
     
